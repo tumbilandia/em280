@@ -1,18 +1,12 @@
-# Use the official Nginx image from the Alpine-based version
 FROM nginx:1.27.3-alpine-slim
 
-# Create necessary directories and set permissions for Nginx cache
-RUN mkdir -p /var/cache/nginx && \
+# Fix permissions for the nginx cache directories
+RUN mkdir -p /var/cache/nginx/client_temp && \
     chown -R nginx:nginx /var/cache/nginx
 
-# Copy your custom HTML file to the nginx server's root
+# Copy your index.html into the nginx web directory
 COPY index.html /usr/share/nginx/html
 
-# Copy the custom nginx configuration file
-COPY nginx.conf /etc/nginx/nginx.conf
+EXPOSE 80
 
-# Expose port 8080 instead of the default 80 to avoid permission issues
-EXPOSE 8080
-
-# Set the Nginx command to start it without daemonizing
 CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: em280
+  namespace: em280  # Ensure this namespace exists
+  labels:
+    zona: prod
+    version: v1
+spec:
+  replicas: 1  # Number of pod replicas you want to run
+  selector:
+    matchLabels:
+      app: em280  # Selector to match the pod template labels
+  template:
+    metadata:
+      labels:
+        app: em280  # Matching label for the selector
+    spec:
+      containers:
+      - name: em280
+        image: tumbilandia/em280:latest
+        imagePullPolicy: Always  # Optional but recommended
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: em280-service
+  namespace: em280
+spec:
+  selector:
+    app: em280  # This matches the labels of the pod
+  ports:
+    - protocol: TCP
+      port: 80        # Port exposed by the service
+      targetPort: 80   # Port on the container to forward traffic to
+  type: ClusterIP      # This is the default type. Use NodePort or LoadBalancer for external access

@@ -1,0 +1,21 @@
+---
+- name: Create folder and file on Red Hat 9 server
+  hosts: redhat9-server
+  become: yes
+
+  tasks:
+    - name: Create directory
+      ansible.builtin.file:
+        path: /opt/my_new_folder
+        state: directory
+        mode: '0755'
+
+    - name: Create text file
+      ansible.builtin.copy:
+        dest: /opt/my_new_folder/example.txt
+        content: |
+          This is a sample text file created by Ansible AWX.
+          Current date/time: {{ ansible_date_time.iso8601 }}
+        owner: root
+        group: root
+        mode: '0644'

@@ -1,6 +1,6 @@
 ---
 - name: Create folder and file on Red Hat 9 server
-  hosts: redhat9-server
+  hosts: redhat94
   become: yes
 
   tasks:

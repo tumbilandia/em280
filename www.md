@@ -2,8 +2,10 @@
 2025-10-13 08:18:21
 
 ### Openshift
-[https://openshift.guide/monitoring/logging.html](https://openshift.guide/monitoring/logging.html)
+https://openshift.guide/monitoring/logging.html
+
 quay image registry Prevent pull of images with security vulnerabilities
+
 https://michaelkotelnikov.medium.com/5-tips-to-secure-a-red-hat-quay-container-image-registry-743fea666107
 https://www.youtube.com/watch?v=IZbCIKXz-wM
 https://github.com/quay/quay/blob/master/docs/quick-local-deployment.md

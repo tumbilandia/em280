@@ -44,6 +44,8 @@ https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20vSphere%2
 ### Organization & Task Management
 https://app.clickup.com/90151820646/v/dc/2kyqf7b6-275/2kyqf7b6-135
 https://planner.cloud.microsoft/webui/mytasks/assignedtome/view/grid?tid=8b87af7d-8647-4dc7-8df4-5f69a2011bb5
+[Mermaid Diagramming and charting tool(]https://mermaid.js.org/)
+https://foambubble.github.io/foam/user/recipes/diagrams-in-markdown.html
 
 ### Udemy
 https://www.udemy.com/course/definitive-helm-course-beginner-master/learn/lecture/47512429#overview

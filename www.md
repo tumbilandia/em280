@@ -3,7 +3,6 @@
 
 ### Openshift
 https://openshift.guide/monitoring/logging.html
-
 quay image registry Prevent pull of images with security vulnerabilities
 
 https://michaelkotelnikov.medium.com/5-tips-to-secure-a-red-hat-quay-container-image-registry-743fea666107
@@ -55,3 +54,11 @@ https://www.udemy.com/course/kubernetes-cka-gpu-ai-workloads-1500-certified-ques
 
 ### Salesforce
 https://developer.salesforce.com/blogs/2025/09/developers-guide-dreamforce-2025?utm_source=rbn&utm_campaign=dev-amer-us-US---&utm_content=blog-o1----&nc=&d=7010M000000uW0VQAU&eid=rbn-rdev-nl&role=dev&utm_medium=email&
+
+### Big Data & AI
+https://blog.google/technology/google-deepmind/weathernext-2/
+
+### Tools/Utilities
+https://www.ipvoid.com/random-ip/
+https://amnesia.openaire.eu/download.html
+https://github.com/microsoftarchive/logsanitizer

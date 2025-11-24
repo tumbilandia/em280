@@ -57,8 +57,18 @@ https://developer.salesforce.com/blogs/2025/09/developers-guide-dreamforce-2025?
 
 ### Big Data & AI
 https://blog.google/technology/google-deepmind/weathernext-2/
+https://console.cloud.google.com/bigquery?project=x14-376204
+https://gemini.google.com/app
+https://qwen.ai/home
 
 ### Tools/Utilities
 https://www.ipvoid.com/random-ip/
 https://amnesia.openaire.eu/download.html
 https://github.com/microsoftarchive/logsanitizer
+https://antigravity.google/ - the next-generation IDE
+https://antigravity.google/blog/introducing-google-antigravity
+
+### Browser
+#### Text Mode
+https://chromewebstore.google.com/detail/text-mode/adelhekhakakocomdfejiipdnaadiiib?pli=1
+https://chromewebstore.google.com/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod

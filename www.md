@@ -60,6 +60,11 @@ https://blog.google/technology/google-deepmind/weathernext-2/
 https://console.cloud.google.com/bigquery?project=x14-376204
 https://gemini.google.com/app
 https://qwen.ai/home
+https://toolmesh.ai/tools
+
+### calligrapher handwriting
+https://www.calligrapher.ai/
+https://handtextai.com/
 
 ### Tools/Utilities
 https://www.ipvoid.com/random-ip/
@@ -67,6 +72,9 @@ https://amnesia.openaire.eu/download.html
 https://github.com/microsoftarchive/logsanitizer
 https://antigravity.google/ - the next-generation IDE
 https://antigravity.google/blog/introducing-google-antigravity
+
+### Dev
+https://devops-daily.com/
 
 ### Browser
 #### Text Mode

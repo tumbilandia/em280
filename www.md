@@ -75,6 +75,7 @@ https://antigravity.google/blog/introducing-google-antigravity
 
 ### Dev
 https://devops-daily.com/
+https://github.com/prosimcorp/kuberbac  # Kubernetes operator to make RBAC in Kubernetes great again
 
 ### Browser
 #### Text Mode

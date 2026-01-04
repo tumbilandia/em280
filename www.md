@@ -61,6 +61,7 @@ https://console.cloud.google.com/bigquery?project=x14-376204
 https://gemini.google.com/app
 https://qwen.ai/home
 https://toolmesh.ai/tools
+https://learn.microsoft.com/es-es/training/modules/fundamentals-generative-ai/
 
 ### calligrapher handwriting
 https://www.calligrapher.ai/
@@ -72,6 +73,7 @@ https://amnesia.openaire.eu/download.html
 https://github.com/microsoftarchive/logsanitizer
 https://antigravity.google/ - the next-generation IDE
 https://antigravity.google/blog/introducing-google-antigravity
+https://texteditor.co/
 
 ### Dev
 https://devops-daily.com/

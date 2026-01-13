@@ -24,6 +24,7 @@ https://blog.2minutestreaming.com/p/apache-kafka-4-0-release
 https://github.com/openshift/installer   
 https://helm.sh/docs/intro/install/   
 https://registry.terraform.io/providers/oVirt/ovirt/latest/docs   
+https://github.com/kedacore/keda  
    
 ### Ansible   
 https://www.unixsysadmin.com/category/ansible/   
@@ -74,6 +75,8 @@ https://github.com/microsoftarchive/logsanitizer
 https://antigravity.google/ - the next-generation IDE   
 https://antigravity.google/blog/introducing-google-antigravity   
 https://texteditor.co/   
+https://replit.com/  
+https://www.w3schools.com/  
    
 ### Dev   
 https://devops-daily.com/   
@@ -83,3 +86,6 @@ https://github.com/prosimcorp/kuberbac  # Kubernetes operator to make RBAC in Ku
 #### Text Mode   
 https://chromewebstore.google.com/detail/text-mode/adelhekhakakocomdfejiipdnaadiiib?pli=1   
 https://chromewebstore.google.com/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod
+
+### wwww
+https://www.dynatrace.com/news/blog/six-observability-predictions-for-2026/  

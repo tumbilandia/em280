@@ -89,3 +89,28 @@ https://chromewebstore.google.com/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclk
 
 ### wwww
 https://www.dynatrace.com/news/blog/six-observability-predictions-for-2026/  
+https://github.com/Universal-Commerce-Protocol/ucp   
+https://headlamp.dev/  
+https://cilium.io/  
+https://zitadel.com/  
+https://www.vcluster.com/  
+https://pandoc.org/installing.html  
+https://pandoc.org/MANUAL.html  
+https://github.com/jgm/pandoc/releases/tag/3.8.3  
+https://mermaid.js.org/  
+https://plantuml.com/ - convert to markdown  
+markdown for vs code "Markdown All in one"  
+  
+https://www.keycloak.org  
+https://fluxcd.io/flux/guides/sealed-secrets/  
+https://github.com/bitnami-labs/sealed-secrets  
+https://www.crossplane.io/  
+https://helm.sh/  
+https://kubernetes.io/  
+https://devfile.io/  
+https://argo-cd.readthedocs.io/en/stable/  
+https://goharbor.io/  
+https://kyverno.io/docs/  
+https://www.mkdocs.org/  
+https://plantuml.com/  
+https://github.com/stan-smith/FossFLOW    

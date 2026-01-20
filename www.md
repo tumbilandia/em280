@@ -83,6 +83,7 @@ https://ksuit.infomaniak.com/
 ### Dev   
 https://devops-daily.com/   
 https://github.com/prosimcorp/kuberbac  # Kubernetes operator to make RBAC in Kubernetes great again   
+https://university.gitlab.com/pages/ci-cd-content  # Continuous Integration and Delivery
    
 ### Browser   
 #### Text Mode   

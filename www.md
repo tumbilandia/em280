@@ -63,6 +63,7 @@ https://gemini.google.com/app
 https://qwen.ai/home   
 https://toolmesh.ai/tools   
 https://learn.microsoft.com/es-es/training/modules/fundamentals-generative-ai/   
+https://duckduckgo.com/duckduckgo-help-pages/duckai  
    
 ### calligrapher handwriting   
 https://www.calligrapher.ai/   
@@ -77,6 +78,7 @@ https://antigravity.google/blog/introducing-google-antigravity
 https://texteditor.co/   
 https://replit.com/  
 https://www.w3schools.com/  
+https://ksuit.infomaniak.com/  
    
 ### Dev   
 https://devops-daily.com/   

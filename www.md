@@ -64,6 +64,7 @@ https://qwen.ai/home
 https://toolmesh.ai/tools   
 https://learn.microsoft.com/es-es/training/modules/fundamentals-generative-ai/   
 https://duckduckgo.com/duckduckgo-help-pages/duckai  
+https://okara.ai/  
    
 ### calligrapher handwriting   
 https://www.calligrapher.ai/   

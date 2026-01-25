@@ -80,6 +80,7 @@ https://texteditor.co/
 https://replit.com/  
 https://www.w3schools.com/  
 https://ksuit.infomaniak.com/  
+https://formats.kaitai.io/ -- explaiin many data files specifications   
    
 ### Dev   
 https://devops-daily.com/   

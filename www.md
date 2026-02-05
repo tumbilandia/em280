@@ -46,13 +46,26 @@ https://app.clickup.com/90151820646/v/dc/2kyqf7b6-275/2kyqf7b6-135
 https://planner.cloud.microsoft/webui/mytasks/assignedtome/view/grid?tid=8b87af7d-8647-4dc7-8df4-5f69a2011bb5   
 [Mermaid Diagramming and charting tool(]https://mermaid.js.org/)   
 https://foambubble.github.io/foam/user/recipes/diagrams-in-markdown.html   
-   
-### Udemy   
+https://outlook.office.com/calendar/  
+https://mail.google.com/  
+https://tasks.google.com/  
+https://planner.cloud.microsoft/   
+
+### Storage  
+https://drive.google.com/  
+
+### Learn  
+* udemy
 https://www.udemy.com/course/definitive-helm-course-beginner-master/learn/lecture/47512429#overview   
 https://www.udemy.com/course/microsoft-copilot-outlook/learn/lecture/53065313#overview   
 https://www.udemy.com/course/kubernetes-cka-high-availability-1500-certified-questions/learn/quiz/7230039#overview   
 https://www.udemy.com/course/kubernetes-cka-gpu-ai-workloads-1500-certified-questions/learn/quiz/7230157#overview   
-   
+* microsoft  
+https://learn.microsoft.com/  
+* google
+https://rsvp.withgoogle.com/events/partner-learning/certification-exam-prep  
+
+
 ### Salesforce   
 https://developer.salesforce.com/blogs/2025/09/developers-guide-dreamforce-2025?utm_source=rbn&utm_campaign=dev-amer-us-US---&utm_content=blog-o1----&nc=&d=7010M000000uW0VQAU&eid=rbn-rdev-nl&role=dev&utm_medium=email&   
    
@@ -81,7 +94,16 @@ https://replit.com/
 https://www.w3schools.com/  
 https://ksuit.infomaniak.com/  
 https://formats.kaitai.io/ -- explaiin many data files specifications   
-   
+
+### Tools/Colaborative 
+https://www.microsoft.com/en-us/microsoft-viva/  
+
+### Tools/Organize  
+
+
+### misc  
+https://www.lettertoyourself.com/compose/delivery  
+
 ### Dev   
 https://devops-daily.com/   
 https://github.com/prosimcorp/kuberbac  # Kubernetes operator to make RBAC in Kubernetes great again   

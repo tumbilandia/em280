@@ -55,14 +55,14 @@ https://planner.cloud.microsoft/
 https://drive.google.com/  
 
 ### Learn  
-* udemy
+* udemy  
 https://www.udemy.com/course/definitive-helm-course-beginner-master/learn/lecture/47512429#overview   
 https://www.udemy.com/course/microsoft-copilot-outlook/learn/lecture/53065313#overview   
 https://www.udemy.com/course/kubernetes-cka-high-availability-1500-certified-questions/learn/quiz/7230039#overview   
 https://www.udemy.com/course/kubernetes-cka-gpu-ai-workloads-1500-certified-questions/learn/quiz/7230157#overview   
 * microsoft  
 https://learn.microsoft.com/  
-* google
+* google  
 https://rsvp.withgoogle.com/events/partner-learning/certification-exam-prep  
 
 

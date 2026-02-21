@@ -69,7 +69,7 @@ https://rsvp.withgoogle.com/events/partner-learning/certification-exam-prep
 ### Salesforce   
 https://developer.salesforce.com/blogs/2025/09/developers-guide-dreamforce-2025?utm_source=rbn&utm_campaign=dev-amer-us-US---&utm_content=blog-o1----&nc=&d=7010M000000uW0VQAU&eid=rbn-rdev-nl&role=dev&utm_medium=email&   
    
-### Big Data & AI   
+### Big Data - AI - Data Science  
 https://blog.google/technology/google-deepmind/weathernext-2/   
 https://console.cloud.google.com/bigquery?project=x14-376204   
 https://gemini.google.com/app   
@@ -78,7 +78,9 @@ https://toolmesh.ai/tools
 https://learn.microsoft.com/es-es/training/modules/fundamentals-generative-ai/   
 https://duckduckgo.com/duckduckgo-help-pages/duckai  
 https://okara.ai/  
-   
+https://labex.io/tutorials/category/datascience  
+https://telegram.me/BotFather   -- The official Telegram bot used to create, manage, and configure other bots on the Telegram platform  
+
 ### calligrapher handwriting   
 https://www.calligrapher.ai/   
 https://handtextai.com/   
@@ -98,7 +100,8 @@ https://formats.kaitai.io/ -- explaiin many data files specifications
 ### Tools/Colaborative 
 https://www.microsoft.com/en-us/microsoft-viva/  
 
-### Tools/Organize  
+### Tools/CheatSheet  
+https://linux-commands.labex.io/  
 
 
 ### misc  

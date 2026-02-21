@@ -95,7 +95,8 @@ https://texteditor.co/
 https://replit.com/  
 https://www.w3schools.com/  
 https://ksuit.infomaniak.com/  
-https://formats.kaitai.io/ -- explaiin many data files specifications   
+https://formats.kaitai.io/ -- explaiin many data files specifications  
+https://github.com/kappa-wingman/useful-links  -- Curated list of useful links, tools and resources for Web development and DNS   
 
 ### Tools/Colaborative 
 https://www.microsoft.com/en-us/microsoft-viva/  

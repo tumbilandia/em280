@@ -25,6 +25,7 @@ https://github.com/openshift/installer
 https://helm.sh/docs/intro/install/   
 https://registry.terraform.io/providers/oVirt/ovirt/latest/docs   
 https://github.com/kedacore/keda  
+https://projectcontour.io/  
    
 ### Ansible   
 https://www.unixsysadmin.com/category/ansible/   
@@ -97,6 +98,7 @@ https://www.w3schools.com/
 https://ksuit.infomaniak.com/  
 https://formats.kaitai.io/ -- explaiin many data files specifications  
 https://github.com/kappa-wingman/useful-links  -- Curated list of useful links, tools and resources for Web development and DNS   
+https://github.com/jnv/lists?tab=readme-ov-file#technical  -- List of useful, silly and awesome lists curated on GitHub  
 
 ### Tools/Colaborative 
 https://www.microsoft.com/en-us/microsoft-viva/  

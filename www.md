@@ -99,6 +99,8 @@ https://ksuit.infomaniak.com/
 https://formats.kaitai.io/ -- explaiin many data files specifications  
 https://github.com/kappa-wingman/useful-links  -- Curated list of useful links, tools and resources for Web development and DNS   
 https://github.com/jnv/lists?tab=readme-ov-file#technical  -- List of useful, silly and awesome lists curated on GitHub  
+https://github.com/catherineisonline/useful-resources  
+
 
 ### Tools/Colaborative 
 https://www.microsoft.com/en-us/microsoft-viva/  
@@ -147,3 +149,6 @@ https://kyverno.io/docs/
 https://www.mkdocs.org/  
 https://plantuml.com/  
 https://github.com/stan-smith/FossFLOW    
+
+https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube  
+https://github.com/noamseg/interview-coach-skill  

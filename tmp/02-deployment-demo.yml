@@ -1,0 +1,48 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: demo
+  namespace: ##OC_NAMESPACE##
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: name
+  template:
+    metadata:
+      labels:
+        app: name
+    spec:
+      containers:
+        - name: container
+          image: ##FINAL_IMAGE##:##CI_COMMIT_TAG##
+          command:
+            - /opt/bitnami/python/bin/python
+            - /app/app.py
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          resources:
+            limits:
+              cpu: 500m
+              memory: 200Mi
+            requests:
+              cpu: 100m
+              memory: 100Mi
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          imagePullPolicy: IfNotPresent
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      dnsPolicy: ClusterFirst
+      securityContext: {}
+      imagePullSecrets:
+        - name: regcred
+      schedulerName: default-scheduler
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  revisionHistoryLimit: 10
+  progressDeadlineSeconds: 600

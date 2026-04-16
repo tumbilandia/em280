@@ -1,0 +1,77 @@
+2026-04-16 07:56:52
+
+-----------------
+How to run devfile commands from VS Code
+
+Option 1 — Command Palette
+Ctrl + Shift + P
+type: "Tasks: Run Task"
+→ you will see your devfile commands listed like:
+    1. Package the application
+    2. ...
+
+Option 2 — Terminal menu
+Terminal (top menu)
+  → Run Task
+    → select your command
+
+Option 3 — Direct terminal
+Just run the command directly in the VS Code terminal:
+mvn package
+-----------------
+
+
+Run it in Dev Spaces terminal
+bash# Compile
+javac HelloWorld.java
+
+# Run
+java HelloWorld
+
+local: 
+- oc get devworkspace
+- oc get svc
+- oc port-forward svc/**** 8080:8080
+http://localhost:8080
+-----------------
+
+# Find a Java image available in your Harbor
+FROM registry.com/green-catalog/YOUR-JAVA-IMAGE:TAG
+
+WORKDIR /app
+
+# Copy source
+COPY HelloWorld.java .
+
+# Compile
+RUN javac HelloWorld.java
+
+# Run
+CMD ["java", "HelloWorld"]
+CMD ["/home/user/.java/current/bin/java", "HelloWorld"]
+-----------------
+
+Dev Spaces terminal
+        ↓
+1. TEST    → java HelloWorld (verify it runs)
+        ↓
+2. BUILD   → buildah bud → push to Harbor
+        ↓
+3. DEPLOY  → oc apply → oc rollout
+        ↓
+4. VERIFY  → oc exec curl | grep "Hello World"
+
+------------------- .net
+dotnet new web -n HelloWorldApp
+cd HelloWorldApp
+>>program.cs
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+#app.MapGet("/", () => "Hello, World!");
+app.MapGet("/", () => Results.Content(
+    "<h1>Hello, World!</h1><p>This is my first .NET web app.</p>",
+    "text/html"
+));
+app.Run();
+
+dotnet run

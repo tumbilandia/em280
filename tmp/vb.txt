@@ -1,0 +1,115 @@
+Sub ImportSQLiteData()
+    Dim conn As Object
+    Dim rs As Object
+    Dim dbPath As String
+    Dim driverPath As String
+    Dim connString As String
+    Dim sql As String
+    Dim i As Integer
+
+    ' --- SET YOUR PATHS HERE ---
+    ' Point this to where you extracted the DLL
+    driverPath = "d:\_dev\scripting\vba\excel\sqlite_odbc\sqlite3odbc.dll"
+    ' Point this to your database
+    dbPath = "d:\_dev\python\python-udemy\udemy.db"
+    ' ---------------------------
+
+    Set conn = CreateObject("ADODB.Connection")
+    Set rs = CreateObject("ADODB.Recordset")
+
+    ' Connection string using the direct path to your DLL
+    'connString = "Driver={" & driverPath & "};Database=" & dbPath & ";"
+    connString = "DRIVER={SQLite3 ODBC Driver};Database=" & dbPath & ";"
+
+    On Error GoTo ErrorHandler
+    conn.Open connString
+
+
+    'Sheets("Sheet1").Select
+    'Cells.Select
+    'Selection.ClearContents
+    'Range("A1").Select
+
+    ' Your SQL Query
+    sql = "select * from courses where title like '%kubernetes%' and avg_rating > 4.5 order by enrollment_date desc, avg_rating"
+
+    rs.Open sql, conn
+
+    ' Setup the Sheet
+    With Sheets(1)
+        .Cells.ClearContents
+        
+        ' 1. Write Headers
+        For i = 0 To rs.Fields.Count - 1
+            .Cells(1, i + 1).Value = rs.Fields(i).Name
+        Next i
+        
+        ' 2. Copy Data (Starting at row 2)
+        'This is a classic "quirk" when using the SQLite ODBC driver with VBA's CopyFromRecordset.
+        'The problem is that SQLite is dynamically typed, while Excel's CopyFromRecordset expects strict COM-compliant data types.
+        'If the driver doesn't explicitly map a SQLite TEXT or REAL field to a format Excel recognizes during the bulk copy, it just leaves them blank.
+        'Since CopyFromRecordset is failing to translate the data, we need to loop through the recordset manually.
+        'It 's slightly slower, but far more reliable for SQLite.
+        '.Range("A2").CopyFromRecordset rs
+        
+        
+        ' 2. Manual Data Import Loop
+        Dim rowNum As Long
+        Dim colNum As Integer
+        rowNum = 2
+        
+        Do While Not rs.EOF
+            For colNum = 0 To rs.Fields.Count - 1
+                ' Use CStr or Val to force the data type conversion if needed
+                ' rs.Fields(colNum).Value is the raw data from SQLite
+                .Cells(rowNum, colNum + 1).Value = rs.Fields(colNum).Value
+            Next colNum
+            
+            rowNum = rowNum + 1
+            rs.MoveNext
+        Loop
+    End With
+
+    MsgBox "Imported " & rowNum - 2 & " rows.", vbInformation
+
+    'MsgBox "Data imported successfully!", vbInformation
+
+CleanUp:
+    If rs.State = 1 Then rs.Close
+    If conn.State = 1 Then conn.Close
+    Set rs = Nothing
+    Set conn = Nothing
+    Exit Sub
+
+ErrorHandler:
+    MsgBox "Error: " & Err.Description, vbCritical
+    Resume CleanUp
+End Sub
+-------------------------
+Sub ReadFromSQLite_DSN()
+    Dim conn As Object
+    Dim rs As Object
+    Dim ws As Worksheet
+    Dim i As Integer, col As Integer
+
+    Set conn = CreateObject("ADODB.Connection")
+    Set rs = CreateObject("ADODB.Recordset")
+    Set ws = ThisWorkbook.Sheets(1)
+
+    conn.Open "DSN=udm;"
+
+    rs.Open "SELECT * FROM your_table_name LIMIT 100", conn
+
+    ' Write headers
+    For col = 0 To rs.Fields.Count - 1
+        ws.Cells(1, col + 1).Value = rs.Fields(col).Name
+    Next col
+
+    ' Write data
+    ws.Cells(2, 1).CopyFromRecordset rs
+
+    rs.Close
+    conn.Close
+    Set rs = Nothing
+    Set conn = Nothing
+End Sub

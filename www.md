@@ -156,7 +156,6 @@ https://github.com/noamseg/interview-coach-skill
 
 AI Detector: Smart AI Detection  
 https://textguard.ai/  
-https://textguard.ai/  
 https://originality.ai/  
 
 Free AI Text Humanizer  

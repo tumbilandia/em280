@@ -152,3 +152,13 @@ https://github.com/stan-smith/FossFLOW
 
 https://developers.redhat.com/learn/openshift/how-manage-microservices-using-openshift-dev-spaces-and-jkube  
 https://github.com/noamseg/interview-coach-skill  
+
+AI Detector: Smart AI Detection  
+https://textguard.ai/  
+https://textguard.ai/  
+https://originality.ai/  
+
+Free AI Text Humanizer  
+https://texttohuman.com/  
+
+certutil -error 0x80070422  

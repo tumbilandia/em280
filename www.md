@@ -100,6 +100,7 @@ https://formats.kaitai.io/ -- explaiin many data files specifications
 https://github.com/kappa-wingman/useful-links  -- Curated list of useful links, tools and resources for Web development and DNS   
 https://github.com/jnv/lists?tab=readme-ov-file#technical  -- List of useful, silly and awesome lists curated on GitHub  
 https://github.com/catherineisonline/useful-resources  
+https://disroot.org/  -- Disroot is a platform providing online services based on principles of freedom, privacy, federation and decentralization  
 
 
 ### Tools/Colaborative 

@@ -1,0 +1,1 @@
+oc get rolebinding -n $P -o json | jq -r '.items[] | .roleRef.name as $r | (.subjects // [])[] | "\($r)\t\(.kind)\t\(.name)"'

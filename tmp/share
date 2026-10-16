@@ -1,1 +1,4 @@
 oc get rolebinding -n $P -o json | jq -r '.items[] | .roleRef.name as $r | (.subjects // [])[] | "\($r)\t\(.kind)\t\(.name)"'
+openssl s_client -connect s3-svm.w1.int.dcs.mydomain.corp:443 \
+  -servername s3-svm.w1.int.dcs.mydomain.corp -showcerts </dev/null 2>&1 \
+  | grep -E "^ *[0-9]+ s:|^ *i:|Verify return code"

@@ -60,7 +60,8 @@ https://drive.google.com/
 https://www.udemy.com/course/definitive-helm-course-beginner-master/learn/lecture/47512429#overview   
 https://www.udemy.com/course/microsoft-copilot-outlook/learn/lecture/53065313#overview   
 https://www.udemy.com/course/kubernetes-cka-high-availability-1500-certified-questions/learn/quiz/7230039#overview   
-https://www.udemy.com/course/kubernetes-cka-gpu-ai-workloads-1500-certified-questions/learn/quiz/7230157#overview   
+https://www.udemy.com/course/kubernetes-cka-gpu-ai-workloads-1500-certified-questions/learn/quiz/7230157#overview
+https://notebook.google.com/?pli=1   
 * microsoft  
 https://learn.microsoft.com/  
 * google  

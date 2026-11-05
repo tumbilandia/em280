@@ -54,6 +54,8 @@ https://planner.cloud.microsoft/
 
 ### Storage  
 https://drive.google.com/  
+### System
+https://distrosea.com/select/mageia/   
 
 ### Learn  
 * udemy  

@@ -57,6 +57,8 @@ https://drive.google.com/
 ### System
 https://distrosea.com/select/mageia/   
 https://sshhole.com/   
+tmux (terminal multiplexer)
+https://tmux.app/   
 
 ### Learn  
 * udemy  
@@ -123,6 +125,7 @@ https://www.lettertoyourself.com/compose/delivery
 https://devops-daily.com/   
 https://github.com/prosimcorp/kuberbac  # Kubernetes operator to make RBAC in Kubernetes great again   
 https://university.gitlab.com/pages/ci-cd-content  # Continuous Integration and Delivery
+https://k9scli.io/  # kubernetes cli to manage your clusters  
    
 ### Browser   
 #### Text Mode   

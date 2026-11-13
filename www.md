@@ -110,6 +110,9 @@ https://disroot.org/  -- Disroot is a platform providing online services based o
 https://www.ilovenote.net/   -- An online notepad can be used to write notes online and save them in your web browser  
 https://www.onlinenotepad.io/    -- An online notepad  
 
+### cloud   
+https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/  
+
 
 ### Tools/Colaborative 
 https://www.microsoft.com/en-us/microsoft-viva/  
